@@ -25,14 +25,6 @@
       }
     },
     {
-      "PK": "time.nrc.ca",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "clock.*.he.net",
       "action": {
         "do": 2,
@@ -137,7 +129,7 @@
       }
     },
     {
-      "PK": "time*.chu.nrc.ca",
+      "PK": "time.alto.win",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -145,7 +137,7 @@
       }
     },
     {
-      "PK": "time.alto.win",
+      "PK": "time*.chu.nrc.ca",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -1178,6 +1170,14 @@
     },
     {
       "PK": "ntp.airable.io",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp*.cmc.ec.gc.ca",
       "action": {
         "do": 2,
         "via": "time.google.com",
