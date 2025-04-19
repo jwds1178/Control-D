@@ -9,6 +9,454 @@
   },
   "rules": [
     {
+      "PK": "ntp*.stratum2.ru",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "time*.apple.com",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.rsu.edu.ru",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.nict.jp",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntpstm.netbone-digital.com",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "cronos.cenam.mx",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "chime*.surfnet.nl",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp-*.stygium.net",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "navobs*.wustl.edu",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp*.jst.mfeed.ad.jp",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp*.stratum1.ru",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.mobatime.ru",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "clock.isc.org",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "time.apple.com",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "time.facebook.com",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.lcf.mx",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp-*.cise.ufl.edu",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "time-*.nist.gov",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "time.ufe.cz",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp*.time.in.ua",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp*.net.berkeley.edu",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.metas.ch",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "time.nist.gov",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.fiord.ru",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "x.ns.gin.ntt.net",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "time.fruteira.cloud",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "asynchronos.iiss.at",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "time.akamai.com",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.vsl.nl",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp*.ona.org",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp*.inrim.it",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.shoa.cl",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp*.usno.navy.mil",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.se",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.devicetask.com",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp*.software.imdea.org",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp*.niiftri.irkutsk.ru",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.neel.ch",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.psn.ru",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "navobs*.oar.net",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.qix.ca",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.time.nl",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.i2t.ehu.eus",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "nist*.symmetricom.com",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "sth*.ntp.se",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "gps.layer42.net",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.ix.ru",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "tock.stdtime.gov.tw",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp*.nl.uu.net",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "mizbeaver.udel.edu",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "gbg*.ntp.se",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.neu.edu.cn",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "time.euro.apple.com",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "tock.usask.ca",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.airable.io",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp*.hetzner.de",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
       "PK": "ntp.atomki.mta.hu",
       "action": {
         "do": 2,
@@ -225,14 +673,6 @@
       }
     },
     {
-      "PK": "*.ntp.ifsc.usp.br",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "pool.time.alto.win",
       "action": {
         "do": 2,
@@ -241,23 +681,7 @@
       }
     },
     {
-      "PK": "ntp*.stratum2.ru",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "ntp*.oma.be",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "time*.apple.com",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -281,39 +705,7 @@
       }
     },
     {
-      "PK": "ntp.rsu.edu.ru",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.nict.jp",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "time.day.ir",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntpstm.netbone-digital.com",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "cronos.cenam.mx",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -337,14 +729,6 @@
       }
     },
     {
-      "PK": "chime*.surfnet.nl",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "ntp.roa.es",
       "action": {
         "do": 2,
@@ -354,38 +738,6 @@
     },
     {
       "PK": "navobs*.gatech.edu",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp-*.stygium.net",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "navobs*.wustl.edu",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp*.jst.mfeed.ad.jp",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp*.stratum1.ru",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -409,30 +761,6 @@
       }
     },
     {
-      "PK": "ntp.mobatime.ru",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "*.pool.ntp.org",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "clock.isc.org",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "vniiftri*.khv.ru",
       "action": {
         "do": 2,
@@ -441,39 +769,7 @@
       }
     },
     {
-      "PK": "time.apple.com",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "time.facebook.com",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.lcf.mx",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "ntp*.vniiftri.ru",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp-*.cise.ufl.edu",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -497,22 +793,6 @@
       }
     },
     {
-      "PK": "time-*.nist.gov",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "time.ufe.cz",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "gnomon.cc.columbia.edu",
       "action": {
         "do": 2,
@@ -522,14 +802,6 @@
     },
     {
       "PK": "time*.nrc.ca",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp*.time.in.ua",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -554,30 +826,6 @@
     },
     {
       "PK": "rackety.udel.edu",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp*.net.berkeley.edu",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.metas.ch",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "time.nist.gov",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -641,39 +889,7 @@
       }
     },
     {
-      "PK": "ntp.fiord.ru",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "ntp.yycix.ca",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "x.ns.gin.ntt.net",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "time.fruteira.cloud",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "asynchronos.iiss.at",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -705,39 +921,7 @@
       }
     },
     {
-      "PK": "ntp.vsl.nl",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp*.ona.org",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "rustime*.rus.uni-stuttgart.de",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp*.inrim.it",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.shoa.cl",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -753,30 +937,6 @@
       }
     },
     {
-      "PK": "ntp*.usno.navy.mil",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.se",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp*.software.imdea.org",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "tick.usask.ca",
       "action": {
         "do": 2,
@@ -785,55 +945,7 @@
       }
     },
     {
-      "PK": "ntp*.niiftri.irkutsk.ru",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.neel.ch",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.psn.ru",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "navobs*.oar.net",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "time.fu-berlin.de",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.qix.ca",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.time.nl",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -857,22 +969,6 @@
       }
     },
     {
-      "PK": "ntp.i2t.ehu.eus",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "nist*.symmetricom.com",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "timehost.lysator.liu.se",
       "action": {
         "do": 2,
@@ -889,15 +985,7 @@
       }
     },
     {
-      "PK": "sth*.ntp.se",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "gps.layer42.net",
+      "PK": "api.rokutime.com",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -906,22 +994,6 @@
     },
     {
       "PK": "ntp.nat.ms",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.ix.ru",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "tock.stdtime.gov.tw",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -945,23 +1017,7 @@
       }
     },
     {
-      "PK": "ntp*.nl.uu.net",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "watch.stdtime.gov.tw",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "mizbeaver.udel.edu",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -977,7 +1033,7 @@
       }
     },
     {
-      "PK": "zeit.fu-berlin.de",
+      "PK": "ntp.ubuntu.com",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -985,7 +1041,7 @@
       }
     },
     {
-      "PK": "gbg*.ntp.se",
+      "PK": "zeit.fu-berlin.de",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -1009,14 +1065,6 @@
       }
     },
     {
-      "PK": "ntp.neu.edu.cn",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "vniiftri.khv.ru",
       "action": {
         "do": 2,
@@ -1033,14 +1081,6 @@
       }
     },
     {
-      "PK": "time.euro.apple.com",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "ntp*.qix.ca",
       "action": {
         "do": 2,
@@ -1050,14 +1090,6 @@
     },
     {
       "PK": "sesku.planeacion.net",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "tock.usask.ca",
       "action": {
         "do": 2,
         "via": "time.google.com",
@@ -1121,63 +1153,23 @@
       }
     },
     {
-      "PK": "ntp*.hetzner.de",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "api.rokutime.com",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "*.ntp-fireos.com",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.ubuntu.com",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.devicetask.com",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "time.akamai.com",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
-      "PK": "ntp.airable.io",
-      "action": {
-        "do": 2,
-        "via": "time.google.com",
-        "status": 1
-      }
-    },
-    {
       "PK": "ntp*.cmc.ec.gc.ca",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp-fireos.com",
+      "action": {
+        "do": 2,
+        "via": "time.google.com",
+        "status": 1
+      }
+    },
+    {
+      "PK": "ntp.ifsc.usp.br",
       "action": {
         "do": 2,
         "via": "time.google.com",
